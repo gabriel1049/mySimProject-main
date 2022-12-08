@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.footer {
+	background-color: #2D2D2F;
+	height: 310px;
+	margin-top: 50px;
+}
+.div-footer {
+
+	display: flex;
+	
+}
+
+.footer-empresa {
+	margin: 60px 100px;
+}
+
+.footer-empresa > p {
+	margin-top: 30px;
+	color: #FFFFFF;
+	opacity: 0.2;
+	font-weight: 400;
+}
+
+.footer-empresa > img {
+	width: 250px;
+}
+
+.footer-empresa > h1 > span {
+	color: #FF5000;
+}
+
+.footer-empresa > h1 {
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+
+.footer-infos1 {
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+	margin-top: 60px;
+}
+
+.footer-infos1 > a > h1 {
+	font-size: 20px;
+}
+
+.footer-infos1 > a > h1:hover {
+	color: #FF5000;
+	transition: 2s;
+}
+
+.footer-infos1 > a {
+	font-size: 15px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.footer-infos2 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+	margin-left: 100px;
+}
+
+.footer-infos2 > h1 {
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+
+.footer-grid2 {
+	display: grid;
+	grid-template-columns: 0.2fr 1fr;
+	margin-top: 14px;
+}
+
+.footer-grid2 > p {
+	color: #FFFFFF;
+}
+
+.footer-grid3 {
+	display: grid;
+	grid-template-columns: 0.2fr 1fr;
+	margin-top: 14px;
+}
+
+.footer-grid3 > p {
+	color: #FFFFFF;
+}
+
+.footer-grid4 {
+	display: grid;
+	grid-template-columns: 0.2fr 1fr;
+	margin-top: 14px;
+}
+
+.footer-grid4 > p {
+	color: #FFFFFF;
+	margin-left: 30px;
+}
+
+.termos-condicoes{
+	background-color: #2D2D2F;
+}
+
+.termos-condicoes > div {
+	display: flex;
+	justify-content: flex-end;
+	gap: 30px;
+	margin-right: 50px;
+
+
+}
+
+.termos-condicoes > div > li {
+	color: #FFFFFF;
+}
+
+.termos-condicoes > div > li > a {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.termos-condicoes > div > li > a:hover {
+	color: #FF5000;
+}

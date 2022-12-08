@@ -1,0 +1,80 @@
+[
+    {
+        "name_of_store":"Iza Travel",
+        "address":"Rua Presciliano Pinto, 2363 - Jd. Alvorada - São José do Rio Preto - SP 15020-000",
+        "contact":"Contato : (17) 2136-1400 / (17) 99172-8427",
+        "link_of_store":"https://mystore.mysimtravel.com/izatravel",
+        "coordinates":[-20.816747, -49.395615]
+    },
+    {
+        "name_of_store":"Viva a Vida Turismo",
+        "address":"Rua Major Claudiano, 2385 - Centro - Franca - SP 14400-690",
+        "contact":"Contato : (11) 98757-0121 / (16) 99638-0717",
+        "link_of_store":"https://mystore.mysimtravel.com/vivaavida-turismo",
+        "coordinates":[-20.532586, -47.399523]
+    },
+    {
+        "name_of_store":"Selma Pelo Mundo Agência de Turismo",
+        "address":"Rua Paranagua, 392 - Sala 2 - Centro - Londrina - PR 86020-030",
+        "contact":"Contato : (43) 99991-3573 / (43) 3142-2300",
+        "link_of_store":"https://mystore.mysimtravel.com/selma-pelo-mundo",
+        "coordinates":[-23.30870118865552, -51.16949090433545]
+    },
+    {
+        "name_of_store":"HW NEGOCIOS E TURISMO",
+        "address":"Av. Generalíssimo Deodoro, 1683 - Sala 603 - Nazaré - Belém - PA 66040-140",
+        "contact":"Contato : (91) 3212-9199 / (91) 4141-1144",
+        "link_of_store":"https://mystore.mysimtravel.com/hwturismo",
+        "coordinates":[-1.4554820645894537, -48.482595318124]
+    },
+    {
+        "name_of_store":"Realize Mais Viagens e Turismo",
+        "address":"Av. Jose Monteiro de Figueiredo, 500 - Goiabeiras Shopping - 2° Piso, MT 78043-900",
+        "contact":"Contato : (65) 3027-5727 / (65) 98128-1440",
+        "link_of_store":"https://mystore.mysimtravel.com/realizemaisviagens",
+        "coordinates":[-15.58799352024137, -56.112202769813926]
+    },
+    {
+        "name_of_store":"Trip Travel",
+        "address":"Quintino Bocaiuva, 267 - Moinhos de Vento - Porto Alegre - RS",
+        "contact":"Contato : (51) 2500-7282",
+        "link_of_store":"https://mystore.mysimtravel.com/triptravel",
+        "coordinates":[-30.02013916413024, -51.19860903115876]
+    },
+    {
+        "name_of_store":"Agência Magic Tour e Sonho Disney",
+        "address":"Rua Pelotas, 83 - Shopping Center VM - Corredor G - São Paulo - SP 04012-000",
+        "contact":"Contato : (11) 5576-9664 / (11) 99618-7253",
+        "link_of_store":"https://mystore.mysimtravel.com/magictour",
+        "coordinates":[-23.581339693852325, -46.64368188898719]
+    },
+    {
+        "name_of_store":"TB Viagens",
+        "address":"Av. Eng. George Corbisier, 1692 - Sala 01 - Jabaquara - São Paulo - SP 04345-001",
+        "contact":"Contato : (11) 2305-3530",
+        "link_of_store":"https://mystore.mysimtravel.com/tbviagens",
+        "coordinates":[-23.651234086862956, -46.648090975492366]
+    },
+    {
+        "name_of_store":"IKI Viagens",
+        "address":"R. Palmitinho, 76 - Sala 5 - Itaquera - São Paulo - SP 08210-020",
+        "contact":"Contato : (11) 99438-1567",
+        "link_of_store":"https://mystore.mysimtravel.com/iki-viagens",
+        "coordinates":[-23.544455662437997, -46.454747905939264]
+    },
+    {
+        "name_of_store":"Alpha Turismo",
+        "address":"Alameda araguaia, 762 - Loja 02 - Shopping Flamingo - Alphaville Industrial - Barueri - SP 06455-000",
+        "contact":"Contato : (11) 4191-5197 / (11) 999279896",
+        "link_of_store":"https://mystore.mysimtravel.com/alphaturismo",
+        "coordinates":[-23.49874506417562, -46.85366853131783]
+    },
+    {
+        "name_of_store":"TORICO Lotericas Web",
+        "address":"Av. Rebouças 3970 - Shopping Eldorado - São Paulo - SP 05409-003",
+        "contact":"Contato : (11) 3814-6092 / (11) 3815-5816",
+        "link_of_store":"https://mystore.mysimtravel.com/torico",
+        "coordinates":[-23.572399580470673, -46.69606134731647]
+    }
+    
+]

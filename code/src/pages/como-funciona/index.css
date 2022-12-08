@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.body {
+    margin-top: 100px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFFFF;
+}
+
+.containercell {
+    background-color: #2d2d2d;
+    width: 100%vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    height: 546px;
+}
+
+.boxlogo-container > img {
+    width: 960px;
+}
+
+.boxtext-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.boxtext-container > h1 {
+    font-family: "Poppins";
+    color: #ececec;
+    font-size: 30px;
+}
+
+.boxtext-container > p {
+    font-family: "Poppins";
+    color: #ececec;
+}
+
+
+.marcas-container {
+    width: 100%vh;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    animation: aparecer 0.7s;
+    
+}
+
+.textmarcas {
+    text-align: center;
+}
+
+
+.textmarcas > h1 {
+    font-family: "Poppins";
+    color: #2d2d2d;
+}
+
+.span1 {
+    color: #ff5000;
+}
+
+.marcas {
+    display: grid;
+    margin: 50px 175px;
+    justify-content: center;
+    grid-template-columns: repeat(3, 0.4fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.logo1 {
+    background-color: #ECECEC;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.9s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.logo1:hover {
+    background-color: #2d2d2d;
+    cursor: pointer;
+    box-shadow: #2d2d2d;
+}
+
+.logo1 > img {
+    width: 80px;
+    margin: 10px;
+
+}
+
+.apple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apple > i {
+    font-size: 95px;
+}
+
+.apple:hover {
+    background-color: #2d2d2d;
+    color: #ECECEC;
+}
+
+
+.text-randow { 
+    text-align: center;
+    margin-top: -40px;
+}
+
+.text-randow > a {
+    color: #ff5000;
+}
+
+
+.ul-content {
+    margin: 80px 175px;
+}
+
+.ul-content > h1 {
+    font-size: 23px;
+}
+
+.ul-content > .ule {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ul-content > .ule > .li1 > a {
+    color: #2d2d2d;
+}
+
+.ul-content > ul > li {
+    color: #ff5000;
+}
+
+
+.celular-iphone {
+    display: none;
+    margin: 22px 175px;
+    animation: aparecer 0.9s;
+}
+
+.span2 {
+    color: #2d2d2d;
+    font-weight: bold;
+}
+
+.boxtext > h1 {
+    font-size: 24px;
+}
+
+.boxtext > h2 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.grid-iphone {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 0.4fr 0.4fr 0.4fr;
+    margin-top: 50px;
+    
+}
+
+.cardphone {
+    background-color: #ECECEC;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.9s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.cardphone:hover {
+    
+    background-color: #2d2d2d;
+    color: #ECECEC;
+}
+
+.iphone7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iphoneX {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iphone11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voltar {
+    padding: 7px;
+    border: 0px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.celular-textinfo {
+    margin-top: 100px;
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    
+    100% {
+      opacity: 100%;
+    }
+    
+  }
+  

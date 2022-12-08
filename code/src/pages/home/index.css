@@ -1,0 +1,691 @@
+/* .fernando{
+    margin-top:2em;
+	margin-left: 24em;
+    display: flex; 
+    flex-direction: row;
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0px;
+  border: 0px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+body.hidden-scrolling{
+	overflow-y: hidden;
+}
+
+/* .container{
+	margin:auto;
+} */
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+
+.selected_countries{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+}
+
+
+#before.ghost  {
+	background-color: white;
+}
+
+.country_box{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	color: #FFFF;
+	border-radius: 10px;
+	margin-top: 5px;
+	background-color: #FF5000;
+	margin-right: 10px;
+	height: auto;
+	width: auto;
+	padding: 0.2em;
+	transition: 0.7s;
+	animation: aparecer 0.5s;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.hide_country_box{
+	display: none;
+}
+
+.plan, .fernando {
+	flex-wrap: wrap;
+}
+
+@keyframes aparecer {
+	0% {
+	  opacity: 0%;
+	}
+  
+	50% {
+	  opacity: 50%;
+	}
+
+	100% {
+		opacity: 100%;
+	  }
+  }
+
+.button_country_box{
+	gap: 10px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: transparent;
+	color: white;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+.nav-comprar{
+	color: #ff5000;
+}
+
+
+.recarga-text {
+	display: flex;
+	text-align: center;
+	align-items: center;
+  }
+  .recarga-text h1 {
+	color: #FFFFFF;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	background-color: #ff5000;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 60px;
+	font-size: 20px;
+  }
+
+.img-header{
+	margin-top: 100px;
+	width: 100%
+}
+
+.img-header > img {
+	width: 100%;
+}
+
+
+
+.info-header{
+	border-top: #ff5000 solid;
+	margin-top: -7px;
+}
+
+
+.info-header,
+.info-div {
+	display: flex;
+	width: 100%;
+	background-color: #2D2D2F;
+}
+
+.info-div{
+	margin-left: 250px;
+	margin-right: 250px;
+	gap: 30px;
+	justify-content: space-around;
+}
+
+.ano-de-mercado{
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+.ano-de-mercado > h1 {
+	font-family: 'Poppins';
+	color: #FFFFFF;
+	font-size: 70px;
+	transition: 0.9s;
+	cursor: pointer;
+	
+}
+
+.ano-de-mercado > h1:hover{
+	color: #ff5000;
+}
+
+.ano-de-mercado > h2 {
+	font-family: 'Poppins';
+	color: #ececec;
+	font-weight: 400;
+	justify-content: flex-end;
+}
+
+.clientes-satisfeitos{
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+.clientes-satisfeitos > h1:hover{
+	color: #ff5000;
+}
+
+.clientes-satisfeitos > h1 {
+	font-family: 'Poppins';
+	color: #FFFFFF;
+	font-size: 70px;
+	transition: 0.9s;
+	cursor: pointer;
+	
+}
+
+.clientes-satisfeitos > h2 {
+	font-family: 'Poppins';
+	color: #ececec;
+	font-weight: 400;
+	justify-content: flex-end;
+}
+
+.paises-cobertura > h1:hover{
+	color: #ff5000;
+}
+
+.paises-cobertura{
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+.paises-cobertura > h1 {
+	font-family: 'Poppins';
+	color: #FFFFFF;
+	font-size: 70px;
+	transition: 0.9s;
+	cursor: pointer;
+	
+}
+
+.paises-cobertura > h2 {
+	font-family: 'Poppins';
+	color: #ececec;
+	font-weight: 400;
+	justify-content: flex-end;
+}
+
+
+/* INPUT SEARCH */
+
+.section-input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+
+}
+
+.input-s {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px;
+
+}
+
+
+.input-s > label {
+	color: #2D2D2F;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.inputebutton {
+	margin-top: 25px;
+}
+
+.input-s > .inputebutton > .input-search {
+	border: 2px solid #2D2D2F;
+	height: 45px;
+	width: 600px;
+	border-radius: 10px;
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2F;
+	padding-left: 10px;
+}
+
+
+
+.input-s > .inputebutton > .button {
+	width: 114px;
+	height: 47px;
+	font-weight: 600;
+	color: #FFFFFF;
+	background-color: #ff5000;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.9s;
+	margin-left: 10px;
+}
+
+.input-s > .inputebutton > .button:hover {
+	background-color: #2D2D2F;
+}
+
+.input-phone {
+	border: 2px solid #ff5000;
+	height: 45px;
+	width: 400px;
+	border-radius: 10px;
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2F;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+.buscar-button{
+	width: 161px;
+	height: 52px;
+	font-family: 'Poppins', sans-serif;
+	color: #ffffff;
+	background-color: #2D2D2F;
+	border-radius: 10px;
+	margin-top: 10px;
+	transition: 0.9s;
+	cursor: pointer;
+	margin-left: 0px;
+}
+
+.buscar-button:hover{
+	background-color: #ff5000;
+}
+
+
+
+.fernando{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.plan{
+    margin-left: 4em;
+	background: #FFFFFF;
+	padding: 15px;
+	border-radius: 10px;
+	display: flex;
+	box-shadow: 0px 5.46095px 5.46095px rgba(0, 0, 0, 0.25), 2.73048px -2.73048px 5.46095px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.text-envio{
+	text-align: center;
+	color: #2d2d2d;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+
+
+.grid-info {
+	display: flex;
+	margin: 100px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.grid-info > .grid-infolayout {
+	display: grid;
+	margin-top: 30px;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 50px;
+}
+
+.grid-infolayout{
+	background-image:url("../../../public/assets/img/maletam2m.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 555px;
+}
+
+
+.grid-h1 > span {
+	color: #ff5000;
+}
+
+
+/* GRID INFORMAÇÕES CHIP FÍSICO */
+
+.grid-infolayout > .grid-chipfisico{
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-infolayout > .grid-chipfisico > h1{
+	text-align: center;
+	border-bottom: 2px solid #ff5000;
+}
+
+.grid-infolayout > .grid-chipfisico > p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* ACABA AQUI */
+
+
+/* GRID INFORMAÇÕES NÃO É DESCARTÁVEL */
+.grid-infolayout > .grid-naodescartavel{
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-infolayout > .grid-naodescartavel > h1{
+	text-align: center;
+	border-bottom: 2px solid #ff5000;
+}
+
+.grid-infolayout > .grid-naodescartavel > p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* ACABA AQUI */
+
+
+/* GRID INFORMAÇÕES COBERTURA GLOBAL */
+.grid-infolayout > .grid-cobertura{
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-infolayout > .grid-cobertura > h1{
+	text-align: center;
+	border-bottom: 2px solid #ff5000;
+}
+
+.grid-infolayout > .grid-cobertura > p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* ACABA AQUI */
+
+
+/* GRID INFORMAÇÕES BENEFICIO DO CHIP */
+.grid-infolayout > .grid-beneficio{
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-infolayout > .grid-beneficio > h1{
+	text-align: center;
+	border-bottom: 2px solid #ff5000;
+}
+
+.grid-infolayout > .grid-beneficio > p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* ACABA AQUI */
+
+/* GRID INFORMAÇÕES SUPORTE */
+
+.grid-infolayout > .grid-sup{
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-infolayout > .grid-sup > h1{
+	text-align: center;
+	border-bottom: 2px solid #ff5000;
+}
+
+.grid-infolayout > .grid-sup > p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* ACABA AQUI */
+
+.grid-infolayout > .grid-controlapp{
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-infolayout > .grid-controlapp > h1{
+	text-align: center;
+	border-bottom: 2px solid #ff5000;
+}
+
+.grid-infolayout > .grid-controlapp > p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+/* CHIP MOCKUP INFO */
+
+.flex-infochip{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px;
+
+}
+
+
+
+.grid-infochip{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 75px;
+	margin-top: 50px;
+}
+
+.ul-infochip > ul {
+	list-style: url("../../../public/assets/img/polygon.svg");
+}
+
+.ul-infochip > ul > li {
+	margin-top: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+
+
+.ul-infochip > ul > li > h1 > span {
+	color: #ff5000;
+}
+
+
+.infochip-comprar {
+	text-align: center;
+	margin-top: 40px;
+	background: linear-gradient(90deg, #FF7231 0%, #FF5000 100%);
+	margin-left: 120px;
+	margin-right: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 59.808px;
+	color: #FFFFFF;
+}
+
+.pais-usa {
+	background-image: url(https://www.estudarfora.org.br/wp-content/uploads/2021/02/New-York.jpg.webp);
+	height: 250px;
+	width: 250px;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+
+.pais-usa > div > h2 {
+	text-align: center;
+	border-radius: 10px;
+	background-color: #FF5000;
+	color: #ececec;
+	
+}
+
+
+.pais-dubai {
+	background-image: url(https://www.comprerural.com/wp-content/uploads/2017/10/emirados-arabes.jpg);
+	height: 250px;
+	width: 250px;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.pais-dubai > h2 {
+	text-align: center;
+	border-radius: 10px;
+	background-color: #FF5000;
+	color: #ececec;
+	
+}
+
+.pais-França {
+	background-image: url(https://elquarto.com/blog/wp-content/uploads/2022/06/Cidades-da-Franca.jpg);
+	height: 250px;
+	width: 250px;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.pais-França > h2 {
+	text-align: center;
+	border-radius: 10px;
+	background-color: #FF5000;
+	color: #ececec;
+	
+}
+
+.pais-Grécia {
+	background-image: url(https://www.viajenaviagem.com/wp-content/uploads/2020/04/atenas-1920x1080-1.jpg);
+	height: 250px;
+	width: 250px;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.pais-Grécia > h2 {
+	text-align: center;
+	border-radius: 10px;
+	background-color: #FF5000;
+	color: #ececec;
+	
+}
+
+.pais-Turquia {
+	background-image: url(https://teatur.com.br/wp-content/uploads/2019/11/00207629.jpg);
+	height: 250px;
+	width: 250px;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.pais-Turquia > h2 {
+	text-align: center;
+	border-radius: 10px;
+	background-color: #FF5000;
+	color: #ececec;
+	
+}
+
+.pais-Egito {
+	background-image: url(https://i2.wp.com/www.descobriregipto.com/wp-content/uploads/2018/12/Lista-Oficial-das-Sete-Maravilhas-do-Egito.png?resize=640%2C426&ssl=1);
+	height: 250px;
+	width: 250px;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.pais-Egito > h2 {
+	text-align: center;
+	border-radius: 10px;
+	background-color: #FF5000;
+	color: #ececec;
+}
+
+.grid-layoutpaiseshome {
+	margin-top: 30px;
+}
+
+
+.layout-paiseshome > h1 > span {
+	color: #ff5000;
+}
+
+.grid-paiseshome > .layout-paiseshome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.grid-paiseshome > .layout-paiseshome > .grid-layoutpaiseshome {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+
+}
+
+
